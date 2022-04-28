@@ -31,10 +31,10 @@ const Home = db.define('homes', {
 });
 
 //Criar a tabela no BD
-//Home.sync();
+Home.sync();
 
 //Verificar se há alguma diferença na tabela, realiza a alteração
-//Home.sync({ alter: true });
+Home.sync({ alter: true });
 
 //Primeiro apaga a TB, em seguida cria TB
 //Home.sync({ force: true })

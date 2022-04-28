@@ -25,6 +25,6 @@ app.get('/', async(req, res) => {
     });
 });
 
-app.listen(8080, () => {
-    console.log("Servidor iniciado na porta 8080: http://localhost:8080");
+app.listen(8083, () => {
+    console.log("Servidor iniciado na porta 8083: http://localhost:8080");
 });
